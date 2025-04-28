@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JS Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Animations Demo</h1>
+        
+        <div class="preferences">
+            <h2>User Preferences</h2>
+            <div class="pref-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                
+                <label for="theme">Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                </select>
+                
+                <button id="savePrefs">Save Preferences</button>
+                <button id="loadPrefs">Load Preferences</button>
+                <button id="resetPrefs">Reset Preferences</button>
+            </div>
+        </div>
+        
+        <div class="animation-area">
+            <h2>Animation Playground</h2>
+            <div class="animated-box" id="animBox"></div>
+            <button id="startAnimation">Start Animation</button>
+            <button id="toggleAnimation">Toggle Rotation</button>
+        </div>
+        
+        <div class="gallery">
+            <h2>Image Gallery</h2>
+            <div class="image-container">
+                <img src="https://picsum.photos/200/300?random=1" alt="Random image" class="gallery-image">
+                <img src="https://picsum.photos/200/300?random=2" alt="Random image" class="gallery-image">
+                <img src="https://picsum.photos/200/300?random=3" alt="Random image" class="gallery-image">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
